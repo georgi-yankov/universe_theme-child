@@ -15,7 +15,11 @@
     <title><?php bloginfo('name'); ?> <?php wp_title("|",true); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php wp_title(); echo ' | '; bloginfo( 'description' ); ?>">
+    <meta name="keywords" content="66 СОУ,Филип Станиславов,София,средно,общообразователно,училище" />
     <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="author" content="Georgi Yankov" />
+    <meta name="robots" content="index, follow" />
+    
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <link rel="profile" href="http://gmpg.org/xfn/11" />
 
