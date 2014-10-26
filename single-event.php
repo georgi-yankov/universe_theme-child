@@ -26,7 +26,7 @@ get_header();
                             <div class="left-event-content">
                                 <?php the_post_thumbnail('events-single'); ?>
                                 <div class="event-contact">
-                                    <h4>Contact Details</h4>
+                                    <!--<h4>Contact Details</h4>-->
                                     <?php 
                                     	$event_location = get_post_meta(get_the_id(), 'core_event_location', true);
 										$event_city = get_post_meta(get_the_id(), 'core_event_city', true);
