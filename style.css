@@ -1,0 +1,55 @@
+/*
+ Theme Name:   Universe Child
+ Description:  A Child Theme for College and Education
+ Author:       Georgi Yankov
+ Author URI:   http://www.gsy-design.com/
+ Template:     universe_theme
+*/
+
+
+/* =Theme customization starts here
+----------------------------------------------------------------------------- */
+
+/******************************************************************************
+    HEADER
+ ******************************************************************************/
+
+.header-right .field_search {
+    color: #A9A9A9;
+}
+
+/******************************************************************************
+    FOOTER
+ ******************************************************************************/
+
+.site-footer .footer-widget-title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/******************************************************************************
+    CONTACT PAGE
+ ******************************************************************************/
+
+.page-template-page-contact-php .wpcf7-text,
+.page-template-page-contact-php .wpcf7-textarea {
+    width: 100%;
+    max-width: 310px;
+}
+
+.page-template-page-contact-php .wpcf7-submit {
+    background-color: #003a6a;
+    border: 1px solid #d5dbe0 !important;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: normal;
+    height: 36px;
+    padding: 0 10px;
+    margin: 0;
+    outline: none;
+}
+
+@media (min-width: 1024px) {
+    .page-template-page-contact-php .contact-page-content {
+        min-height: 559px;
+    }
+}
