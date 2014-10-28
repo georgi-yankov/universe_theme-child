@@ -64,7 +64,7 @@ get_header(); ?>
                 <?php 
                 $author_info = of_get_option('author_info');
 				if ($author_info) { ?>
-                <div class="row">
+<!--                <div class="row">
                     <div class="col-md-12">
                         <div id="blog-author" class="clearfix">
                             <a href="#" class="blog-author-img">
@@ -74,9 +74,9 @@ get_header(); ?>
                                 <h4 class="author-name"><a href="#"><?php the_author_posts_link() ?></h4>
 								<p><?php the_author_meta('description') ?></p>
                             </div>
-                        </div> <!-- /.blog-author -->
-                    </div> <!-- /.col-md-12 -->
-                </div> <!-- /.row -->
+                        </div>  /.blog-author 
+                    </div>  /.col-md-12 
+                </div>  /.row -->
                 <?php } ?>
                	<?php comments_template(); ?>
             </div> <!-- /.col-md-8 -->
