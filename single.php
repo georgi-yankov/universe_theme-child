@@ -31,7 +31,7 @@ get_header(); ?>
 		                                    <ul>
 		                                        <li><i class="fa fa-calendar-o"></i><?php the_time('F j, Y'); ?></li>
 		                                        <li><a href="<?php comments_link(); ?>"><i class="fa fa-comments"></i><?php comments_number( __('No Comments', CORE_THEME_NAME), __('One Comment ', CORE_THEME_NAME), __('% Comments', CORE_THEME_NAME) ); ?></a></li>
-		                                        <li><i class="fa fa-user"></i><?php the_author_posts_link(); ?></li>
+		                                        <!--<li><i class="fa fa-user"></i><?php the_author_posts_link(); ?></li>-->
 		                                    </ul>
 		                                </div> <!-- /.blog-post-meta -->
 		                            </div> <!-- /.blog-post-image -->
