@@ -40,8 +40,8 @@ get_header(); ?>
 	                                <h4 class="blog-grid-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 	                                <p class="blog-grid-meta small-text">
 	                                	<span><?php the_time('F j, Y'); ?></span>
-	                                	<?php _e(' With ', CORE_THEME_NAME ); ?>
-	                                	<span><?php comments_popup_link('No comments', '1 comment', '% comments', 'comments-link', 'Comments are closed'); ?></span>
+	                                	<?php // _e(' With ', CORE_THEME_NAME ); ?>
+	                                	<span>&nbsp;<?php comments_popup_link('Няма коментари', '1 коментар', '% коментари', 'comments-link', 'Коментарите са заключени'); ?></span>
 	                                </p>
 	                            </div> <!-- /.box-content-inner -->
 	                        </div> <!-- /.blog-grid-item -->
