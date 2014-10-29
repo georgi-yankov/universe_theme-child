@@ -30,7 +30,8 @@
     SINGLE PAGE
  ******************************************************************************/
 
-.single-post .blog-post-image img {
+.single-post .blog-post-image img,
+.single-post .blog-post-inner img {
     height: auto;
 }
 
