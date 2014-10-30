@@ -77,6 +77,7 @@
 
 /* Comments */
 
+#comments .widget-title,
 #respond .widget-title {
     font-family: Arial, Helvetica, sans-serif;
 }
