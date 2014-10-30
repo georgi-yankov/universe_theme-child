@@ -58,7 +58,7 @@
 			$aria_req = ($req ? "aria-required='true'" : '');
 			
 			$comments_args = array(
-			'title_reply' => '<div class="widget-main-title"><h4 class="widget-title">'.__('Leave a Comment', CORE_THEME_NAME).
+			'title_reply' => '<div class="widget-main-title"><h4 class="widget-title">'.__('Оставете Коментар', CORE_THEME_NAME).
 			'</h4></div>',
 			'label_submit' =>  __('Submit Comment', CORE_THEME_NAME ),
 			'comment_notes_after' => '<div class="row"><div class="col-md-12">'.
