@@ -39,10 +39,14 @@
     SINGLE PAGE
  ******************************************************************************/
 
+/* Images */
+
 .single-post .blog-post-image img,
 .single-post .blog-post-inner img {
     height: auto;
 }
+
+/* Headings */
 
 .single-post .blog-post-inner h3,
 .single-post .blog-post-inner h4,
@@ -69,6 +73,12 @@
 
 .single-post .tag-items a {
     margin-bottom: 4px;
+}
+
+/* Comments */
+
+#respond .widget-title {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /******************************************************************************
