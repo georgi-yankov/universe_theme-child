@@ -17,7 +17,7 @@
 		<div class="col-md-12">
 			<div id="comments" class="blog-post-comments">
 				<div class="widget-main-title">
-		             <h4 class="widget-title"><?php comments_number('No Comments', 'One Comment', '% Comments' );?></h4>
+		             <h4 class="widget-title"><?php comments_number('Няма Коментари', 'Един Коментар', '% Коментара' );?></h4>
 		        </div>
 	       </div>
 	        <div class="blog-comments-content">
