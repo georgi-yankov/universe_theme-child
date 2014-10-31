@@ -124,3 +124,13 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+/******************************************************************************
+    Photo Gallery - Plugin
+ ******************************************************************************/
+
+.bwg_album_extended_div_0,
+.bwg_album_extended_thumb_div_0,
+.bwg_album_extended_text_div_0 {
+    border-color: #d5dbe0 !important;
+}
