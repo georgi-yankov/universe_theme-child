@@ -41,7 +41,7 @@ get_header(); ?>
 	                                <p class="blog-grid-meta small-text">
 	                                	<span><?php the_time('F j, Y'); ?></span>
 	                                	<?php // _e(' With ', CORE_THEME_NAME ); ?>
-	                                	<span>&nbsp;<?php comments_popup_link('Няма коментари', '1 коментар', '% коментари', 'comments-link', 'Коментарите са заключени'); ?></span>
+	                                	<span>&nbsp;<?php comments_popup_link('няма коментари', '1 коментар', '% коментара', 'comments-link', 'коментарите са заключени'); ?></span>
 	                                </p>
 	                            </div> <!-- /.box-content-inner -->
 	                        </div> <!-- /.blog-grid-item -->
