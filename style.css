@@ -113,3 +113,14 @@
         min-height: 559px;
     }
 }
+
+/******************************************************************************
+    COMMON
+ ******************************************************************************/
+
+.blog-grid-title a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
