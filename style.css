@@ -126,6 +126,35 @@
 }
 
 /******************************************************************************
+    vbox7 iframe
+ ******************************************************************************/
+
+.vbox7-iframe-wrapper {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .vbox7-iframe-wrapper iframe {
+        max-width: 408px;
+        height: 229px;
+    }
+}
+
+@media (max-width: 480px) {
+    .vbox7-iframe-wrapper iframe {
+        max-width: 248px;
+        height: 139px;
+    }
+}
+
+@media (max-width: 320px) {
+    .vbox7-iframe-wrapper iframe {
+        max-width: 168px;
+        height: 94px;
+    }
+}
+
+/******************************************************************************
     Photo Gallery - Plugin
  ******************************************************************************/
 
