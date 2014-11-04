@@ -23,7 +23,7 @@ get_header();
 					<?php
 			           	global $wp_query;
 						$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-	                 	$wp_query = new WP_Query(array( 'post_type' => 'event', 'order' => 'ASC', 'orderby' => 'date', 'paged' => $paged ));
+	                 	$wp_query = new WP_Query(array( 'post_type' => 'event', 'order' => 'DESC', 'orderby' => 'date', 'paged' => $paged ));
 					 	if($wp_query->have_posts()): ?>
 				 	
 				 		<?php while ($wp_query->have_posts()): $wp_query->the_post();
