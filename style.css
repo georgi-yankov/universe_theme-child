@@ -86,6 +86,13 @@
     top: 20px;
 }
 
+.comment-author.vcard cite.fn {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150px;
+}
+
 /******************************************************************************
     CONTACT PAGE
  ******************************************************************************/
