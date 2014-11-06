@@ -122,6 +122,56 @@
 }
 
 /******************************************************************************
+    KOLEKTIV PAGE
+ ******************************************************************************/
+
+.teacher-block {
+    margin-bottom: 40px;
+}
+
+.teacher-block:last-of-type {
+    margin-bottom: 0;
+}
+
+.teacher-block:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+}
+
+.teacher-block .teacher-photo {
+    float: left;
+    margin-right: 30px;
+    width: 200px;
+    max-width: 100%;
+}
+
+.teacher-block .teacher-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.teacher-block .teacher-info {
+    float: left;
+}
+
+.teacher-block .teacher-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.teacher-block .teacher-info-body {
+
+}
+
+.teacher-block .teacher-info-body i.fa {
+    color: #4782b2;
+    margin-right: 5px;
+}
+
+/******************************************************************************
     COMMON
  ******************************************************************************/
 
