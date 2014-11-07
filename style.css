@@ -144,7 +144,6 @@
     float: left;
     margin-right: 30px;
     width: 200px;
-    max-width: 100%;
 }
 
 .teacher-block .teacher-photo img {
@@ -154,6 +153,7 @@
 
 .teacher-block .teacher-info {
     float: left;
+    width: 480px;
 }
 
 .teacher-block .teacher-name {
@@ -169,6 +169,29 @@
 .teacher-block .teacher-info-body i.fa {
     color: #4782b2;
     margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+    .teacher-block .teacher-info {
+        width: 346px;
+    }
+}
+
+@media (max-width: 991px) {
+    .teacher-block .teacher-info {
+        width: 450px;
+    }
+}
+
+@media (max-width: 581px) {
+    .teacher-block .teacher-photo {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .teacher-block .teacher-info {
+        width: 100%;
+    }
 }
 
 /******************************************************************************
