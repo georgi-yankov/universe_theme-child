@@ -36,7 +36,7 @@
 }
 
 /******************************************************************************
-    SINGLE PAGE
+    SINGLE POST & PAGE
  ******************************************************************************/
 
 .widget-title {
@@ -46,7 +46,8 @@
 /* Images */
 
 .single-post .blog-post-image img,
-.single-post .blog-post-inner img {
+.single-post .blog-post-inner img,
+.page .widget-inner img {
     height: auto;
 }
 
@@ -55,22 +56,29 @@
 .single-post .blog-post-inner h3,
 .single-post .blog-post-inner h4,
 .single-post .blog-post-inner h5,
-.single-post .blog-post-inner h6 {
+.single-post .blog-post-inner h6,
+.page .widget-inner h3,
+.page .widget-inner h4,
+.page .widget-inner h5,
+.page .widget-inner h6 {
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
-.single-post .blog-post-inner h3 {
+.single-post .blog-post-inner h3,
+.page .widget-inner h3 {
     font-size: 24px;
 }
 
-.single-post .blog-post-inner h4 {
+.single-post .blog-post-inner h4,
+.page .widget-inner h4 {
     font-size: 16px;
     margin-top: 20px;
 }
 
-.single-post .blog-post-inner h5 {
+.single-post .blog-post-inner h5,
+.page .widget-inner h5 {
     font-size: 14px;
     margin-top: 20px;
 }
